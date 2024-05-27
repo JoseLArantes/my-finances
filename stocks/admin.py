@@ -32,3 +32,4 @@ class StockAdmin(admin.ModelAdmin):
 @admin.register(StockPrice)
 class StockPriceAdmin(admin.ModelAdmin):
     list_display = ('stock', 'date', 'price')
+
